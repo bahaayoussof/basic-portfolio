@@ -13,6 +13,8 @@
     margin-left: auto;
 }
 
+/* Header */
+
 .header {
     height: 500px;
     background: url("../images/bg.jpg") no-repeat;
@@ -104,6 +106,8 @@
     margin-left: 10%;
 }
 
+/* About */
+
 #about {
     display: flex;
     align-items: center;
@@ -126,6 +130,8 @@
     margin-bottom: 15px;
 }
 
+/* Portfolio */
+
 #portfolio {
     text-align: center;
     background-color: #e3e3e3;
@@ -144,11 +150,11 @@
 }
 
 #portfolio img {
-    width: 500px;
-    height: auto;
+    width: 300px;
+    height: 200px;
 }
 
-.left, .right {
+.left, .center, .right {
     padding: 5px;
 }
 
@@ -198,6 +204,8 @@
     margin: 10px;
     cursor: pointer;
 }
+
+/* Contacts */
 
 #contacts {
     padding: 50px;
